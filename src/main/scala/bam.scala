@@ -15,10 +15,7 @@ import Top._
 
 package Bam {
 
-  /*
-  ~\.jdks\openjdk-19.0.1\bin\java.exe -jar .\target\scala-2.13\bam.jar .\ENCFF710ELD.bam
- */
-  
+ 
   class Bam(val bamfile:String){
     final def pullReadsOverCoordinates(intervals: List[Interval], analyze: (SAMRecord) => Boolean) {
       val reader = Bam.open(this.bamfile)
