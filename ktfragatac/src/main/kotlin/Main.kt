@@ -1,6 +1,4 @@
-// Using ktor buildFatJar
-// ~\.jdks\corretto-16.0.2\bin\java.exe -jar .\build\libs\fat.jar
-
+// Use ktor buildFatJar
 // https://javadoc.io/doc/com.github.samtools/htsjdk/latest/index.html
 import JavaPkg.JavaMain
 import Cmn2.Log
